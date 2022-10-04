@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root{
+    --padrao: white;
+    --nome: 'Inspiration', cursive;
+    --corpo: 'Arial', cursive;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: cursive;
+}
+
+.form{
+    background: grey;
+    width: 50%;
+    height: 70%;
+    margin:0 auto;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+input, select{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+}
+input[type="submit"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+    height: 35px;
+}
+input[type="submit"]:hover{
+    background:#069;
+    color: #fff;
+}
+input[type="button"]:hover{
+    background:#069;
+    color: #fff;
+}
+
+body{
+    background-image: url("");
+    background-color: #d3d3d3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+
+}
+
+.nome{
+    font-family: var(--nome);
+    font-size: 4.Srem;
+    color: black;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.box-top{
+    font-family: cursive;
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--padrao);
+    border-radius: 0px 0px 35px 35px;
+    margin-bottom: 10px;
+
+}
+
+.about{
+    font-family: var(--corpo);
+    color: black;
+    text-align:center;
+    font-size: 1.1rem;
+    padding: 5px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link{
+    background-color: var(--padrao);
+    height: 10vh;
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: var(--corpo);
+
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.Srem;
+
+}
+
+.box-link:hover{
+    border: 1px solid var(--padrao);
+    background-color: white;
+    color: var(--padrao);
+    
+}
+
+       
+
+          
+
+            
